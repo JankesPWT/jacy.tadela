@@ -1,6 +1,6 @@
 <?php
 require_once 'stepper.class.php';
-$stepper = new Stepper(2910);
+$stepper = new Stepper(2920);
 
 $steps = 20000;
 
