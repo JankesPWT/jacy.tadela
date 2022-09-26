@@ -1,0 +1,24 @@
+#URL: https://stackoverflow.com/questions/12551382/what-does-1-qsa-l-mean-in-my-htaccess-file
+
+Not the place to give a complete tutorial, but here it is in short;
+
+RewriteCond (http://httpd.apache.org/docs/2.2/en/mod/mod_rewrite.html#RewriteCond) 
+basically means "execute the next RewriteRule only if this is true". 
+The !-l path is the condition that the request is not for a link 
+(! means not, -l means link)
+
+The RewriteRule (http://httpd.apache.org/docs/2.2/en/mod/mod_rewrite.html#RewriteRule)
+ basically means that if the request is done 
+that matches ^(.+)$ (matches any URL except the server root), 
+it will be rewritten as index.php?url=$1 which means a request 
+for ollewill be rewritten as index.php?url=olle).
+
+QSA means that if there's a query string passed with the original URL, 
+it will be appended to the rewrite (olle?p=1 will be rewritten 
+as index.php?url=olle&p=1.
+
+L means if the rule matches, don't process any more RewriteRules below this one.
+
+For more complete info on this, follow the links above. 
+The rewrite support can be a bit hard to grasp, 
+but there are quite a few examples on stackoverflow to learn from.

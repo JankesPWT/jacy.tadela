@@ -1,0 +1,41 @@
+#
+
+[callback] --
+
+! callback jest to funkcja przekazywana jako parametr innej funkcji w celu późniejszego 
+jej wywołania w tejże funkcji
+
+! <wiki> jest to technika programowania będąca odwrotnością wywołania funkcji. 
+Zwykle korzystanie z właściwości konkretnej biblioteki polega na wywołaniu funkcji (podprogramów) 
+dostarczanych przez tę bibliotekę. W tym przypadku jest odwrotnie: użytkownik jedynie rejestruje 
+funkcję do późniejszego wywołania, natomiast funkcje biblioteki wywołają ją w stosownym 
+dla siebie czasie.
+
+! <w3schools> A callback function (often referred to as just "callback") 
+is a function which is passed as an argument into another function.
+
+#
+
+[render] --
+
+! wykonać (usługę), sprawić, czynić, przedstawić, 
+
+! (w feudaliźmie) płacić w naturze 
+
+! szerokie pojęcie, które oznacza przedstawianie informacji zapisanych w pliku w określonej, 
+odpowiadającej danemu środowisku formie, np. dane można przedstawić w formie wizualnej lub 
+dźwiękowej.
+
+! graficzne przedstawienie treści zapisanej cyfrowo w formie właściwej dla danego środowiska. 
+Część programu komputerowego odpowiedzialna za renderowanie nazywana jest 
+mechanizmem renderującym, silnikiem renderującym lub rendererem
+
+#
+
+[request] -- 
+
+#
+
+[resolve] -- rozstrzygać, rozwiązać, postanowić, zadecydować
+
+#
