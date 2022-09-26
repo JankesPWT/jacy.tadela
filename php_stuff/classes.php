@@ -1,6 +1,7 @@
 <?php
 //Klasa z polami i metodami
-class Czlowiek {
+class Czlowiek 
+{
     
     //Atrybuty, pola, właściwości
     public $imie; 
