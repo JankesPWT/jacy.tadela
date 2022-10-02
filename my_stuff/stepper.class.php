@@ -46,11 +46,13 @@ class Stepper {
 
 	//ile PUNKTÓW za same reklamy
 	public function bonusPoints($steps) {
-		if ($steps < 5000 ) { $bonusPoints = 3; }
-		elseif ($steps >= 5000 && $steps < 10000) { $bonusPoints = 5; }
-		elseif ($steps >= 10000 && $steps < 15000) { $bonusPoints = 8; }
-		elseif ($steps >= 15000 && $steps < 20000) { $bonusPoints = 13; }
-		elseif ($steps >= 20000) { $bonusPoints = 23; }
+		if ($steps < 5000 ) { $bonusPoints = 10; }
+		elseif ($steps >= 5000 && $steps < 10000) { $bonusPoints = 15; }
+		elseif ($steps >= 10000 && $steps < 15000) { $bonusPoints = 20; }
+		elseif ($steps >= 15000 && $steps < 20000) { $bonusPoints = 25; }
+        elseif ($steps >= 20000 && $steps < 30000) { $bonusPoints = 35; }
+        elseif ($steps >= 30000 && $steps < 40000) { $bonusPoints = 45; }
+		elseif ($steps >= 40000) { $bonusPoints = 55; }
 		return $bonusPoints;
 	}
 
@@ -75,5 +77,15 @@ class Stepper {
 		echo "<pre>";
 		print_r($_POST);
 		echo "</pre>";
+	}
+
+	public function setOne() : int
+	{
+		if (!empty($_POST['stepsToday'])) {
+			return $_POST['stepsToday'];
+		} else {
+			return 1;
+		}
+		
 	}
 }

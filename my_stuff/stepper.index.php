@@ -1,6 +1,6 @@
 <?php
 require_once 'stepper.class.php';
-$stepper = new Stepper(3030);
+$stepper = new Stepper(3375);
 
 $steps = 20000;
 
@@ -31,19 +31,20 @@ $stepper->getData($_POST);
 <table>
     <tr>
         <td>Missing: <?=$stepper->missingPoints() ?> points</td>
-        <th colspan="2">1</th>
+        <th colspan="2"><?=$stepper->setOne() ?></th>
         <th colspan="2">5000</th>
-        <th colspan="2">8000</th>
         <th colspan="2">10000</th>
         <th colspan="2">15000</th>
         <th colspan="2">20000</th>
+        <th colspan="2">30000</th>
+        <th colspan="2">40000</th>
     </tr>
     <tr>
         <td class="row-title">Z reklamami</td>
         <td>
-            <?= $stepper->dniPoKrokachAds(1) ?>
+            <?= $stepper->dniPoKrokachAds($stepper->setOne()) ?>
             <br>
-            <?= $stepper->kiedy($stepper->dniPoKrokachAds(1)) ?>
+            <?= $stepper->kiedy($stepper->dniPoKrokachAds($stepper->setOne())) ?>
         </td>
         <td>
             <?= $stepper->bonusPoints(1) ?>
@@ -55,14 +56,6 @@ $stepper->getData($_POST);
         </td>
         <td>
             <?= $stepper->bonusPoints(5000) ?>
-        </td>
-        <td>
-            <?= $stepper->dniPoKrokachAds(8000) ?>
-            <br>
-            <?= $stepper->kiedy($stepper->dniPoKrokachAds(8000)) ?>
-        </td>
-        <td>
-            <?= $stepper->bonusPoints(8000) ?>
         </td>
         <td>
             <?= $stepper->dniPoKrokachAds(10000) ?>
@@ -88,13 +81,29 @@ $stepper->getData($_POST);
         <td>
             <?= $stepper->bonusPoints(20000) ?>
         </td>
+        <td>
+            <?= $stepper->dniPoKrokachAds(30000) ?>
+            <br>
+            <?= $stepper->kiedy($stepper->dniPoKrokachAds(30000)) ?>
+        </td>
+        <td>
+            <?= $stepper->bonusPoints(30000) ?>
+        </td>
+        <td>
+            <?= $stepper->dniPoKrokachAds(40000) ?>
+            <br>
+            <?= $stepper->kiedy($stepper->dniPoKrokachAds(40000)) ?>
+        </td>
+        <td>
+            <?= $stepper->bonusPoints(40000) ?>
+        </td>
     </tr>
     <tr>
         <td class="row-title">Bez reklam</td>
         <td>
-            <?= $stepper->dniPoKrokach(1) ?>
+            <?= $stepper->dniPoKrokach($stepper->setOne()) ?>
             <br>
-            <?= $stepper->kiedy($stepper->dniPoKrokach(1)) ?>
+            <?= $stepper->kiedy($stepper->dniPoKrokach($stepper->setOne())) ?>
         </td>
         <td>
             <?= $stepper->stepsToPoints(1) ?>
@@ -106,14 +115,6 @@ $stepper->getData($_POST);
         </td>
         <td>
             <?= $stepper->stepsToPoints(5000) ?>
-        </td>
-        <td>
-            <?= $stepper->dniPoKrokach(8000) ?>
-            <br>
-            <?= $stepper->kiedy($stepper->dniPoKrokach(8000)) ?>
-        </td>
-        <td>
-            <?= $stepper->stepsToPoints(8000) ?>
         </td>
         <td>
             <?= $stepper->dniPoKrokach(10000) ?>
@@ -138,6 +139,22 @@ $stepper->getData($_POST);
         </td>
         <td>
             <?= $stepper->stepsToPoints(20000) ?>
+        </td>
+                <td>
+            <?= $stepper->dniPoKrokach(30000) ?>
+            <br>
+            <?= $stepper->kiedy($stepper->dniPoKrokach(30000)) ?>
+        </td>
+        <td>
+            <?= $stepper->stepsToPoints(30000) ?>
+        </td>
+                <td>
+            <?= $stepper->dniPoKrokach(40000) ?>
+            <br>
+            <?= $stepper->kiedy($stepper->dniPoKrokach(40000)) ?>
+        </td>
+        <td>
+            <?= $stepper->stepsToPoints(40000) ?>
         </td>
     </tr>
 </table>
