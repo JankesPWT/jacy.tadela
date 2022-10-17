@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * [OL] https://www.php.net/manual/en/function.ob-start.php
  * 
  * [L] http://webmade.org/porady/buforowanie-headers-already-sent-php.php
