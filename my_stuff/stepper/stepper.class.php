@@ -3,7 +3,7 @@
 class Stepper {
 	
 	private int $points = 0;
-	private int $price = 19900;
+	private int $price = 19500;
 	private int $avg = 10;
 	private int $stepsPerPoint = 1000;
 

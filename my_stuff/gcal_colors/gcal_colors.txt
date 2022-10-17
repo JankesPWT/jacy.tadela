@@ -1,0 +1,29 @@
+Cykoria/ 173,20,87/ #ad1457 !
+Kwiat-Wisni/ 216,27,96/ #d81B60 !
+Pomidor/ 213,0,0/ #d50000 !
+Flaming/ 230,124,115/ #e67c73 !
+
+Mandarynka/ 244,81,30/ #f4511e !
+Dynia/ 239,108,0/ #ef6c00 !
+Mango/ 240,147,0/ #f09300 !
+Banan/ 246,191,38/ #f6bf26 !
+
+Cytryna/ 228,196,65/ #e4c441 !
+Awokado/ 192,202,51/ #c0ca33 !
+Pistacja/ 124,179,66/ #7cb342 !
+Szalwia/ 51,182,121/ #33b679 !
+
+Bazylia/ 11,128,67/ #0b8043 !
+Eukaliptus/ 0,150,136/ #009688 !
+Paw/ 3,155,229/ #039be5 !
+Kobalt/ 66,133,244/ #4285f4 !
+
+Jagoda/ 63,81,181/ #3f51b5 !
+Lawenda/ 121,134,203/ #7986cb !
+Wisteria/ 179,157,219/ #b39ddb !
+Ametyst/ 158,105,175/ #9e69af !
+
+Winogrona/ 142,36,170/ #8e24aa !
+Kakao/ 121,85,72/ #795548 !
+Grafit/ 97,97,97/ #616161 !
+Brzoza/ 167,155,142/ #a79b8e !

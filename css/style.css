@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+}
+table, tr, td, th {
+    border: 1px dotted #000;
+    text-align: center;
+    width: 100%;
+}
+th, .row-title {
+    background-color: #ccc;
+    font-weight: bold;
+    width: 160px;
+}
+td {
+    width: 14%;
+    height: 40px;
+    padding: 1%;
+}
+
+.cykoria { background-color: #ad1457; }
+.kwiat-wisni { background-color: #d81B60; }
+.pomidor { background-color: #d50000; }
+.flaming { background-color: #e67c73; }
+.mandarynka { background-color: #f4511e; }
+.dynia { background-color: #ef6c00; }
+.mango { background-color: #f09300; }
+.banan { background-color: #f6bf26; }
+.cytryna { background-color: #e4c441; }
+.awokado { background-color: #c0ca33; }
+.pistacja { background-color: #7cb342; }
+.szalwia { background-color: #33b679; }
+.bazylia { background-color: #0b8043; }
+.eukaliptus { background-color: #009688; }
+.paw { background-color: #039be5; }
+.kobalt { background-color: #4285f4; }
+.jagoda { background-color: #3f51b5; }
+.lawenda { background-color: #7986cb; }
+.wisteria { background-color: #b39ddb; }
+.ametyst { background-color: #9e69af; }
+.winogrona { background-color: #8e24aa; }
+.kakao { background-color: #795548; }
+.grafit { background-color: #616161; }
+.brzoza { background-color: #a79b8e; }
