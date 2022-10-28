@@ -29,5 +29,9 @@ if (isset($_POST['action'])) {
     $action = 'default';
 }
 
+# pierwsza zmienna od lewej, która istnieje i nie jest pusta
+echo $test ?? $test1 ?? $test2;
+
 # 3
 # Short and sweet: $foo = $foo ?? 'bar' can be shortened to $foo ??= 'bar'
+#
