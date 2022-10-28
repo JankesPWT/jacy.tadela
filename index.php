@@ -1,3 +1,12 @@
+<?php
+
+$pliki = scandir('php_stuff');
+echo '<pre>';
+var_dump($pliki);
+echo'</pre>';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

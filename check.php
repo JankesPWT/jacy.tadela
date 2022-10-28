@@ -1,19 +1,8 @@
 <?php
 
+$a = true;
+$b = false;
 
-class Jankes
-{
-    public $var = 2;
-    
-    public function jeden()
-    {
-        if ($this->var == 1) {
-            return 1;
-        }
-        return 2;
-    }
-    
-}
+$c = $a ?: 'n';
 
-$jankes = new Jankes;
-echo $jankes->jeden();
+echo $c;
