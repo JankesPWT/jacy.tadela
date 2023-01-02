@@ -4,7 +4,7 @@
 # 3 - ??= - 
 # -----
 
-# 1
+# 1 ##################################################################
 // (warunek) ? [prawda] : [fałsz]
 // można opuścić środek
 
@@ -18,7 +18,7 @@ if (empty($_POST['action'])) {
     $action = $_POST['action'];
 }
 
-# 2
+# 2 ##################################################################
 // Example usage for: Null Coalesce Operator
 $action = $_POST['action'] ?? 'default';
 
@@ -32,6 +32,6 @@ if (isset($_POST['action'])) {
 # pierwsza zmienna od lewej, która istnieje i nie jest pusta
 echo $test ?? $test1 ?? $test2;
 
-# 3
+# 3 ##################################################################
 # Short and sweet: $foo = $foo ?? 'bar' can be shortened to $foo ??= 'bar'
 #
