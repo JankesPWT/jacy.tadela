@@ -1,5 +1,7 @@
 <?php
 
+# https://www.php.net/manual/en/language.constants.magic.php
+
 echo __LINE__;
 echo '<br>';
 echo __FILE__;
