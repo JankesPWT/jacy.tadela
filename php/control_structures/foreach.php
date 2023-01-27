@@ -1,5 +1,7 @@
 <?php
 
+# man: https://www.php.net/manual/en/control-structures.foreach.php
+
 $array = ['jeden', 'dwa', 'trzy', 'cztery', 'pięć'];
 
 foreach($array as $liczba) {
