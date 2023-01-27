@@ -1,13 +1,11 @@
 <?php
+/* ARROW FUNCTIONS - funkcje strzałkowe */
+
+# man: https://www.php.net/manual/en/functions.arrow.php
 
 /**
- * ARROW FUNCTIONS
- * funkcje strzałkowe(?)
- * 
  * fn (arguments) => expression
- *
  */
-
 
 $myArr = [1, 2, 3, 4, 5, 6];
 $doubledValues = array_map(fn ($var) => $var * 2, $myArr);
