@@ -11,7 +11,7 @@ echo strip_tags("<b>bold <i>and</i> bolder</b>");
 
 echo '<br>';
 
-#długość ciągu
+# długość ciągu
 echo strlen("Ile znaków ma ten napis?");
 
 echo '<br>';

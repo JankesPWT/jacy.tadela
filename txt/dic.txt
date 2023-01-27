@@ -16,6 +16,12 @@ is a function which is passed as an argument into another function.
 
 #
 
+[fetch] --
+
+! przynieść, dostawiać, aportować
+
+#
+
 [render] --
 
 ! wykonać (usługę), sprawić, czynić, przedstawić, 

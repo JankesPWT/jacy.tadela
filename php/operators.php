@@ -30,6 +30,7 @@ if (isset($_POST['action'])) {
 }
 
 # pierwsza zmienna od lewej, która istnieje i nie jest pusta
+$test = 'jedynka';
 echo $test ?? $test1 ?? $test2;
 
 # 3 ##################################################################
