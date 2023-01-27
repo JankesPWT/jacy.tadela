@@ -1,4 +1,6 @@
 <?php
+# man: https://www.php.net/manual/en/language.operators.php
+
 # 1 - ?:  - Ternary Operator - skrócony if
 # 2 - ??  - Null Coalescing Operator - isset
 # 3 - ??= - 
@@ -35,4 +37,19 @@ echo $test ?? $test1 ?? $test2;
 
 # 3 ##################################################################
 # Short and sweet: $foo = $foo ?? 'bar' can be shortened to $foo ??= 'bar'
-#
+
+
+/* INCREMENT/DECREMENT OPERATORS */
+
+$x = 5;
+echo $x++; // 5 // Returns $x, 
+echo $x;  // 6 //  then increments $x by one.
+
+echo $x--; // 6 // Returns $x,
+echo $x;  // 5 //  then decrements $x by one.
+
+echo ++$x; // 6 // Increments $x by one, 
+echo $x;  // 6 //  then returns $x.
+
+echo --$x; // 5 // Decrements $x by one,
+echo $x;  // 5 //  then returns $x.
