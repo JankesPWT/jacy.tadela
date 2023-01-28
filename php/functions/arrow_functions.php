@@ -3,8 +3,10 @@
 
 # man: https://www.php.net/manual/en/functions.arrow.php
 
+# source: Program with Gio - https://www.youtube.com/watch?v=7_FOIxYLF-s
+
 /**
- * fn (arguments) => expression
+ * fn ($arguments) => expression
  */
 
 $myArr = [1, 2, 3, 4, 5, 6];

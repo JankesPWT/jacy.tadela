@@ -1,5 +1,6 @@
 <?php
 # man: https://www.php.net/manual/en/language.operators.php
+# link: https://www.w3schools.com/php/php_operators.asp
 
 # 1 - ?:  - Ternary Operator - skrócony if
 # 2 - ??  - Null Coalescing Operator - isset
