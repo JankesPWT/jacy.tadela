@@ -1,4 +1,4 @@
-const myArray = [18, 64, 99];
+const array = [1, 2, 3];
 
 const arr = [
   [1, 2, 3],
@@ -10,3 +10,7 @@ const arr = [
 const subarray = arr[3];
 const nestedSubarray = arr[3][0];
 const element = arr[3][0][1];
+
+array.push(4);
+
+document.write(array);
