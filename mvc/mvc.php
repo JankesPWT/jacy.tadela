@@ -3,6 +3,7 @@
 class Model {
   public function getData() {
     // Code to fetch data from database
+    $data = '';
     return $data;
   }
 }
@@ -15,6 +16,8 @@ class View {
 }
 
 class Controller {
+  public Model $model;
+  public View $view;
   public function __construct() {
     $this->model = new Model();
     $this->view = new View();
