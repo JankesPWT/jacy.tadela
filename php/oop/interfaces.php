@@ -1,26 +1,43 @@
 <?php
-//Interfejsy - metody zadeklarowane w interfejsie muszą pojawić się w klasie,
-    //która go używa
-interface F {
-    function m1();
-    function m2();
+# INTERFACES
+
+# man: https://www.php.net/manual/en/language.oop5.interfaces.php
+# link: https://www.youtube.com/watch?v=-AJic0FjuAA
+
+/**
+ * metody zadeklarowane w interfejsie muszą pojawić się w klasie, która go używa
+ * nie można mieć pól, ale można mieć stałe
+ */
+
+interface PojazdInterface
+{
+  public function jedz();
+  public function tankuj(int $ilePaliwa);
 }
 
-class G implements F {
-    function __construct() {
-        $this->m1();
-        $this->m2();
-        $this->m3();
-    }
-    
-    function m1() {
-        echo "m1<br>";
-    }
-    function m2() {
-        echo "m2<br>";
-    }
-    function m3() {
-        echo "m3<br>";
-    }
-} 
-$g = new G;
+class Maluch implements PojazdInterface {
+  private int $iloscPaliwa;
+
+  public function jedz() {
+    echo "Maluch się toczy";
+  }
+
+  public function tankuj(int $ilePaliwa) {
+    $this->iloscPaliwa += $ilePaliwa;
+    if ($this->iloscPaliwa > 21)
+      echo "Przelany";
+  }
+}
+
+class Porshe implements PojazdInterface {
+  public function jedz() {
+    echo "Porshe jedzie bardzo szybko";
+  }
+
+  public function tankuj(int $ilePaliwa) {
+    if ($ilePaliwa < 10)
+      echo "Jeździsz Porshe, a na benzynę Cię nie stać?";
+  }
+}
+$auto1 = new Maluch;
+$auto2 = new Porshe;
