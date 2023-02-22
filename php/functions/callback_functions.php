@@ -3,8 +3,7 @@
 
 # man: https://www.php.net/manual/en/language.types.callable.php
 # link: https://www.w3schools.com/php/php_callback_functions.asp
-
-# source: Program with Gio - https://www.youtube.com/watch?v=7_FOIxYLF-s
+# link: Program with Gio - https://www.youtube.com/watch?v=7_FOIxYLF-s
 
 /**
  * anonymous classes are insances of closures

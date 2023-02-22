@@ -3,7 +3,7 @@
 
 # man: https://www.php.net/manual/en/functions.anonymous.php
 
-# source: Program with Gio - https://www.youtube.com/watch?v=7_FOIxYLF-s
+# link: Program with Gio - https://www.youtube.com/watch?v=7_FOIxYLF-s
 
 $x = 1;
 

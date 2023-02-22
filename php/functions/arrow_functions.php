@@ -3,7 +3,7 @@
 
 # man: https://www.php.net/manual/en/functions.arrow.php
 
-# source: Program with Gio - https://www.youtube.com/watch?v=7_FOIxYLF-s
+# link: Program with Gio - https://www.youtube.com/watch?v=7_FOIxYLF-s
 
 /**
  * fn ($arguments) => expression
