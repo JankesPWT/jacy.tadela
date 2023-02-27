@@ -62,7 +62,9 @@ $jankes->przywitanie();
 print_r($jankes->wiek()->wiekDodaj());
 echo '<br>';
 Czlowiek::statystyczny();
-
+echo '<pre>';
+var_dump($jankes);
+echo'</pre>';
 unset($jankes);
 
 //  
@@ -84,3 +86,7 @@ class Dziecko extends Czlowiek
 $synek = new Dziecko('Brajanek');
 $synek->setNazwisko('Polit');
 $synek->przywitanie();
+
+echo '<pre>';
+var_dump($synek);
+echo'</pre>';
