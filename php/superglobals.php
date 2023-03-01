@@ -13,3 +13,16 @@ echo "<hr>";
 
 //
 //echo 'My username is ' .$_ENV["USER"] . '!';
+
+/**
+ * 
+ * $_SERVER
+ * $_GET
+ * $_POST
+ * $_FILES
+ * $_COOKIE
+ * $_SESSION
+ * $_REQUEST
+ * 
+ * $_ENV
+ */
