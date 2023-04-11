@@ -1,5 +1,6 @@
 <?php
-class Czlowiek 
+
+class Czlowiek
 {
     //Atrybuty, pola, właściwości
     public ?string $imie; // znak zapytania oznacza, że pole może być nullowe

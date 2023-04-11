@@ -1,5 +1,8 @@
 #
 
+[assert] - zapewniać, dowodzić
+#
+
 [callback] --
 
 ! callback jest to funkcja przekazywana jako parametr innej funkcji w celu późniejszego 
