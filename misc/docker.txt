@@ -1,0 +1,5 @@
+# otwieranie basha projektu w dockerze
+docker exec -it expennies-app bash
+
+# rebuilding container
+docker-compose up -d --build
